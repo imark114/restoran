@@ -1,0 +1,11 @@
+.hero_section{
+    height: 750px;
+}
+.hero_img{
+    animation: imgRotate 50s linear infinite;
+}
+@keyframes imgRotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
